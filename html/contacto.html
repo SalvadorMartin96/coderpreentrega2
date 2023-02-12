@@ -20,13 +20,13 @@
     <header class="headerenc flex-container">
         <h1 class="titulo align-middle">Barberia Popular</h1>
         <nav>
-                <ul style="margin:0 auto;" >
-                    <li class="align-middle"><a href="../index.html">Inicio</a></li>
-                    <li class="align-middle"><a href="./servicios.html">Servicios</a></li>
-                    <li class="align-middle"><a href="./fotos.html">Fotos</a></li>
-                    <li class="align-middle"><a href="./reservatuturno.html">Reserva tu turno</a></li>
-                    <li class="align-middle"><a href="./contacto.html">Contacto</a></li>
-                </ul>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./fotos.html">Fotos</a></li>
+                <li><a href="./reservatuturno.html">Reserva tu turno</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -34,18 +34,36 @@
         <img class="imgFondo img-fluid" src="../img/barberia5.gif" alt="barberia">
         <!-- SERVICIOS -->
 
-        <div class="container">
-            <div class="row mt-4 mb-4">
-                <h2 class="text-center">SERVICIOS</h2>
-            </div>
-            <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-lg-3 mb-3">
-                    <div class="caja">
-                        <h2>CORTE</h2>
-                        <p>Clásico o moderno. Marcamos tendencia combinando máquinas y tijeras.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 mb-3">
+        <h1 class="contactotit">CONTACTO</h1>
+        <form action="" class="form" method="post">
+            <ul>
+             <li>
+               
+               <input type="text" id="nombre" name="user_name" placeholder="Nombre" required>
+             </li>
+             <li>
+            
+                <input type="text" id="apellido" name="user_apellido" placeholder="Apellido" required>
+              </li>
+             <li>
+            
+               <input type="email" id="mail" name="user_mail" placeholder="Correo electrónico" required>
+             </li>
+             <li>
+            
+                <input type="text" id="motivo" name="user_motivo" placeholder="Motivo de contacto" required>
+              </li>
+             <li>
+               
+               <textarea id="obs" name="user_message" placeholder="Observaciones" required></textarea>
+             </li>
+             <button class="botonenviar" type="submit">Enviar</button>
+            </ul>
+           </form>
+        
+    </main>
+
+                <!-- <div class="col-12 col-sm-6 col-lg-3 mb-3">
                     <div class="caja">
                         <h2 class="text-center">BARBA</h2>
                         <p>Afeitada tradicional o recorte de barba. Contamos con el servicio de toalla caliente.</p>
@@ -62,11 +80,11 @@
                         <h2 class="text-center">COLOR</h2>
                         <p>Las tendencias y los tonos cambian, animate vos tambien.</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </main>
-    
+
     <!-- FOOTER -->
 
     <footer>
